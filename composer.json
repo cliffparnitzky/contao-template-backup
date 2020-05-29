@@ -1,0 +1,32 @@
+{
+  "name":"cliffparnitzky/contao-template-backup",
+  "description":"Provides the possibility to store/backup a template, if it is deleted via backend, and restore it.",
+  "keywords":["contao","backend","template","backup"],
+  "type":"contao-module",
+  "license":"LGPL-3.0-or-later",
+  "authors":[
+    {
+      "name":"Cliff Parnitzky",
+      "email":"contao@cliff-parnitzky.de",
+      "role":"Developer"
+    }
+  ],
+  "support":{
+    "email":"contao@cliff-parnitzky.de",
+    "issues":"https://github.com/cliffparnitzky/contao-template-backup/issues",
+    "source":"https://github.com/cliffparnitzky/contao-template-backup"
+  },
+  "require":{
+    "php":">=7.2",
+    "contao/core-bundle":"~4.9"
+  },
+  "extra":{
+    "contao":{
+      "sources":{
+        "system/modules/TemplateBackup":"system/modules/TemplateBackup"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true 
+}
